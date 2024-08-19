@@ -104,7 +104,7 @@
 102,2023-12-05,Bread roll,bread,2,1.5
 103,2023-11-29,Chocolate bar,ready-made,1,2.0
 104,2023-03-31,Bread roll,bread,7,1.5
-105,2023-04-01,Veggie sandwich,sandwich,3,2.8
+105,2023-04-01,Veggie sandwich,sandwich,3,
 106,2023-09-03,Bread roll,bread,6,1.5
 107,2023-06-27,Veggie sandwich,sandwich,8,2.8
 108,2023-06-17,Cake slice,slice,1,3.5
@@ -127,7 +127,7 @@
 125,2023-09-11,Veggie sandwich,sandwich,3,2.8
 126,2023-12-11,Bread roll,bread,7,1.5
 127,2023-05-04,Mints,ready-made,8,1.0
-128,2023-09-26,Veggie sandwich,sandwich,2,2.8
+128,2023-09-26,Veggie sandwich,sandwich,,2.8
 129,2023-05-20,Cake slice,slice,5,3.5
 130,2023-09-24,Chicken sandwich,sandwich,3,3.0
 131,2023-09-05,Bread loaf,bread,8,4.5
@@ -155,7 +155,7 @@
 153,2023-08-01,Cake slice,slice,6,3.5
 154,2023-01-19,Mints,ready-made,3,1.0
 155,2023-01-02,Bread roll,bread,8,1.5
-156,2023-08-13,Chocolate bar,ready-made,3,2.0
+156,2023-08-13,,ready-made,3,2.0
 157,2023-10-02,Mints,ready-made,5,1.0
 158,2023-02-03,Pie slice,slice,8,4.0
 159,2023-01-26,Veggie sandwich,sandwich,10,2.8
@@ -186,7 +186,7 @@
 184,2023-11-13,Bread loaf,bread,4,4.5
 185,2023-01-17,Bread roll,bread,8,1.5
 186,2023-12-18,Cake slice,slice,3,3.5
-187,2023-04-11,Veggie sandwich,sandwich,7,2.8
+187,2023-04-11,Veggie sandwich,,7,2.8
 188,2023-11-26,Pie slice,slice,4,4.0
 189,2023-10-29,Veggie sandwich,sandwich,5,2.8
 190,2023-10-22,Chicken sandwich,sandwich,3,3.0

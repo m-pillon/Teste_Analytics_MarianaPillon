@@ -4,8 +4,19 @@ import pandas as pd
 from datetime import date, timedelta
 from random import randrange, choice
 
-# Criador/seletor de dados
+# Dados a criar:
+# ID, Data, Produto, Categoria, Quantidade, Preco
+# Produtos, preco, categoria: Lista pre definida (main)
+# Quantidade 1 a 10
+# Data: 01/01/2023 a 31/12/2023
+# Um ID (entrada) = venda uma ou mais unidades
+#     de um mesmo produto
+#     o pandas ja cria isso por padrao
+# Os dados sao colocados em um dicionario
+#     e depois salvos em um arquivo CSV
 
+# Criador/seletor de dados
+# gera colunas (listas) de dados
 def generateData(products, dates):
     n = len(dates)
     prod = []
@@ -13,6 +24,7 @@ def generateData(products, dates):
     quant = []
     price = []
 
+    # escolhe um produto aleatoriamente cada vez
     while(n > 0):
         prods = choice(products)
         prod.append(prods[0])
@@ -22,11 +34,11 @@ def generateData(products, dates):
         price.append(prods[1])
         n -= 1
     
+    # gera um dataframe e salva em um csv
     lst = [dates, prod, cat, quant, price]
     data = np.array(lst)
     columns = ['Data', 'Produto', 'Categoria', 'Quantidade', 'Preço']
     df = pd.DataFrame(data.transpose(), columns=columns)
-
     df.to_csv('fake_data.csv')
 
 # gera um numero aleatorio de 0 a 365-1
