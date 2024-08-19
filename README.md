@@ -6,9 +6,8 @@ As dependências estão em *requirements.txt*. Para instala-las, digite no termi
 > $ `pip install -r requirements.txt`
 
 ### Rodando o projeto
-Rodar o projeto com
+Rodar o projeto com este comando deveria ser o suficiente para gerar todos os arquivos e [TODO] imagens.
 > $ `python main.py`
-deveria ser o suficiente para gerar todos os arquivos e [TODO] imagens.
 
 No entanto, é mais interessante ver o que eu fiz passo a passo. Para isso, [TODO] incluirei arquivos do tipo .ipynb e seus respectivos .pdf's para visualização.
 
