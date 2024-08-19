@@ -1,5 +1,17 @@
 # Teste de Analytics - Mariana Pillon
 
+## Rodando o projeto
+### Instalando dependências
+As dependências estão em *requirements.txt*. Para instala-las, digite no terminal:
+> $ `pip install -r requirements.txt`
+
+### Rodando o projeto
+Rodar o projeto com
+> $ `python main.py`
+deveria ser o suficiente para gerar todos os arquivos e [TODO] imagens.
+
+No entanto, é mais interessante ver o que eu fiz passo a passo. Para isso, [TODO] incluirei arquivos do tipo .ipynb e seus respectivos .pdf's para visualização.
+
 ## Parte 1: Criação e análise de dados
 **Sobre os dados**: 
 * Foi simulado o controle de vendas de uma padaria
