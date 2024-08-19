@@ -24,7 +24,6 @@ def generateData(products, dates):
     
     lst = [dates, prod, cat, quant, price]
     data = np.array(lst)
-    print(data.shape)
     columns = ['Data', 'Produto', 'Categoria', 'Quantidade', 'Preço']
     df = pd.DataFrame(data.transpose(), columns=columns)
 
