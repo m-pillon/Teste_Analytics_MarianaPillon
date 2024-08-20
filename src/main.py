@@ -26,14 +26,4 @@ if __name__ == '__main__':
 
         dates = randomDates(n)
         generateData(products, dates)
-    
-    # nao tem duplicatas nem valores faltantes em fake_data.csv
-    # como o arquivo data_clean.csv ja foi criado, vou deixar comentado
-    """
-    df = pd.read_csv('fake_data.csv')
-    df.sort_values(by=['Data'], inplace=True)
-    df.rename(columns={'Unnamed: 0': 'ID'}, inplace=True)
-    df.to_csv('data_clean.csv')
-    """
 
-    

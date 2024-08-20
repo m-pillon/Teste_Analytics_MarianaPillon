@@ -19,4 +19,7 @@ Isso vai abrir a pasta atual em localhost:8888 no navegador.
   * Para a data: se for importante para a análise, tirar aquela linha; se não, ignorar a coluna data;
 
 ## Análise de dados
-* Na análise, foi criado um pequeno dataset com a receita que cada produto gerou (não foi salvo em .CSV), além da geração de gráficos com matplotlib
+* Uma nova coluna, Total gasto, com Quantidade * Preço, foi criada;
+* Foi criado um pequeno dataset com a receita que cada produto gerou (não foi salvo em .CSV);
+* Os gráficos de pizza foram gerados a partir desse dataset e salvos na pasta `figures`
+* Foi feita outra operação de agrupamento para verificar as vendas em cada mês. Esses dados foram plotados com matplotlib e a figura foi salva junto com as outras imagens.
